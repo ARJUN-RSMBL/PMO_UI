@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import ProjectCenter from "./ProjectCenter";
 import BenefitRegister from "./BenefitRegister";
 import Home from "./Home";
+import PortfolioManagement from "./PortfolioManagement";
+import BusinessCase from "./BusinessCase";
 
 export default function Navbar() {
   return (
@@ -56,6 +58,8 @@ export default function Navbar() {
     <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectCenter />} />
+          <Route path="/business-case" element={<BusinessCase />} />
+          <Route path="/portfolio" element={<PortfolioManagement />} />
           <Route path="/workflow-tasks" element={<BenefitRegister />} />
         </Routes>
     </Router>
