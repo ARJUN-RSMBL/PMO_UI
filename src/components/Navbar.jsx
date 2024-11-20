@@ -18,7 +18,7 @@ export default function Navbar() {
           className="mr-6 flex items-center text-lg font-semibold text-white"
           href="#"
         >
-          RESEMBLE
+           <Link to="/"> EPM</Link>
         </a>
         <nav className="flex flex-1 items-center space-x-4 text-sm">
           <a className="text-white/90 transition-colors hover:text-white" href="#">
